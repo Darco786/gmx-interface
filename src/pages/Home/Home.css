@@ -66,7 +66,7 @@
 
 .Home-benefits-section {
   /* background: #061127; */
-  background: rgba(56, 62, 83);
+  background: #05141e;
 }
 
 .Home-benefits {
@@ -218,9 +218,8 @@
 .Home-token-card-section {
   padding-top: 7.75rem;
   padding-bottom: 7.75rem;
-  /* background: #17182c; */
-  /* background: rgb(20, 50, 71); */
-  background: rgba(56, 62, 83);
+
+  background: #05141e;
   margin-bottom: -4.65rem;
 }
 
@@ -247,11 +246,10 @@
   padding: 2.325rem;
   border-radius: 1.3rem;
   max-width: 59.2rem;
-  background: rgba(0, 153, 255, 0.2705882353);
-  box-shadow: 0px 0.5rem 1.3rem #00000085;
-  border: 1px solid #2a2b3d;
-  border-radius: 4px;
-  background: var(--grayis-black) 0% 0% no-repeat padding-box;
+  background: rgb(0 153 255 / 6%);
+  box-shadow: 0px 0.5rem 1rem #3184bb3b;
+  border: 1px solid #28a0f0;
+  border-radius: 12px;
 }
 
 .Home-token-card-option-icon {
@@ -311,12 +309,11 @@
 }
 
 .Home-latest-info-block {
-  background: rgba(44, 54, 74, 0.38) 0% 0% no-repeat padding-box;
-  box-shadow: 0px 0.5rem 2.2rem #0000001f;
-  box-shadow: 0px 1.2rem 1.7rem #00000024;
-  box-shadow: 0px 0.7rem 0.8rem #00000033;
-  /* mix-blend-mode: multiply; */
-  border: 1px solid #ffffff2d;
+  background: #0099ff26 0% 0% no-repeat padding-box;
+  
+  box-shadow: 0px 0.7rem 0.8rem #182731;
+  
+  border: 1px solid #2898e2;
   border-radius: 4px;
   max-width: 38rem;
   width: 100%;
@@ -325,6 +322,7 @@
   padding-top: 2.8rem;
   padding-bottom: 2.8rem;
   margin: 1.6rem 0;
+  -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
 }
 

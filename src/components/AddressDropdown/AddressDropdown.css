@@ -14,7 +14,7 @@
 }
 
 .App-header-user-address:hover {
-  background: #808aff14;
+  background: #80d6ff14;
 }
 .App-header-user-address:active {
   background: var(--dark-blue-active);
@@ -28,8 +28,8 @@
   width: 100%;
   transform-origin: top right;
   border-radius: 0.4rem;
-  background: #16182e;
-  border: 1px solid #32344c;
+  background: rgb(40 160 240 / 22%);
+  border: 1px solid #2175ae;
   list-style: none;
   cursor: pointer;
   outline: none;

@@ -159,9 +159,9 @@
 .App-box-highlight,
 .App-box-solid {
   position: relative;
-  border: 1px solid #1e2136;
+  border: 1px solid #515151;
   border-radius: 0.4rem;
-  background: #0099ff45;
+  background: #28a0f00f;
   font-size: var(--font-base);
 }
 
@@ -403,12 +403,12 @@ button.App-connect-wallet:hover {
 
 .mobile-menu-divider {
   height: 1px;
-  background: #4e516a;
+  background: #2075ae;
 }
 
 .App-card-divider {
   height: 1px;
-  background: #23263b;
+  background: #2075ae;
   margin: 1.05rem -1.5rem;
 }
 
@@ -492,10 +492,11 @@ button.App-connect-wallet:hover {
   font-weight: 500;
   margin-bottom: 0.8rem;
   font-weight: bold;
+  color: #28a0f0;
 }
 
 .Page-description {
-  color: #b7b7bd;
+  color: #fff;
   line-height: 2.15rem;
   font-size: var(--font-base);
 }
@@ -540,8 +541,8 @@ button.App-connect-wallet:hover {
 
 .App-card {
   padding: 1.5rem 1.5rem 1.86rem;
-  border: 1px solid #1e2136;
-  border-radius: 0.4rem;
+  border: 1px solid #28a0f0b0;
+  border-radius: 12px;
   font-size: var(--font-base);
 }
 
@@ -795,7 +796,7 @@ a.App-cta,
 button.App-cta {
   color: white;
   text-decoration: none;
-  background: linear-gradient(90deg, rgba(45, 66, 252, 1) 0%, rgba(46, 61, 205, 1) 100%);
+  background: #119af6;
   &:hover:enabled {
     background: var(--primary-btn-hover);
   }
@@ -847,17 +848,17 @@ button.App-button-option {
   display: inline-flex !important;
   align-items: center;
   border: none;
-  background: rgba(43, 55, 94, 1);
+  background: rgb(40 160 240);
 }
 
 a.App-button-option:hover,
 button.App-button-option:hover:enabled {
-  background: rgb(54, 69, 117);
+  background: rgba(45, 135, 196, 0.592);
 }
 
 a.App-button-option:active,
 button.App-button-option:active:enabled {
-  background: rgb(64, 82, 141);
+  background: rgb(36, 158, 228);
 }
 
 button.App-button-option:disabled {
@@ -1136,7 +1137,7 @@ button.App-button {
 
 .App-slider .rc-slider-handle {
   background: #303652;
-  border: solid 2px rgba(45, 66, 252, 1);
+  border: solid 2px #01b7dd;
 }
 
 .App-slider .rc-slider-handle:active {

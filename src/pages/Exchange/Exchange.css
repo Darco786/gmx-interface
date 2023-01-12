@@ -708,7 +708,7 @@ table.Exchange-list th {
   z-index: 1;
   cursor: pointer;
   font-size: var(--font-sm);
-  background: linear-gradient(90deg, rgba(45, 66, 252, 1) 0%, rgba(46, 61, 205, 1) 100%);
+  background: linear-gradient(90deg, #00bcd4 0%, #03a9f4 100%);
 }
 
 .Exchange-swap-max:hover {
@@ -768,7 +768,7 @@ input.Exchange-swap-input.small {
   border-radius: 3.1rem;
   cursor: pointer;
   user-select: none;
-  background: linear-gradient(90deg, rgba(45, 66, 252, 1) 0%, rgba(46, 61, 205, 1) 100%);
+  background: linear-gradient(90deg, #00bcd4 0%, #03a9f4 100%);
   display: flex;
   justify-content: center;
   align-items: center;
