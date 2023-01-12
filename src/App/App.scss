@@ -159,8 +159,8 @@
 .App-box-highlight,
 .App-box-solid {
   position: relative;
-  border: 1px solid #515151;
-  border-radius: 0.4rem;
+  border: 1px solid rgba(40, 160, 240, 0.6901960784);
+  border-radius: 8px;
   background: #28a0f00f;
   font-size: var(--font-base);
 }

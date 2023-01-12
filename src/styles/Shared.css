@@ -224,7 +224,7 @@ a.plain {
 
 .default-btn {
   background: var(--arbitrum-blue);
-  border-radius: 8px;
+  border-radius: 0px;
   font-size: var(--font-sm);
   line-height: 2rem;
   font-weight: 500;
