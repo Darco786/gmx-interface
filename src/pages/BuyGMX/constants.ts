@@ -95,25 +95,25 @@ export const CENTRALISED_EXCHANGES: Exchange[] = [
   {
     name: "Binance",
     icon: "ic_binance.svg",
-    link: "https://www.binance.com/en/trade/GMX_USDT?_from=markets",
+    link: "#",
     networks: [ARBITRUM, AVALANCHE],
   },
   {
     name: "Bybit",
     icon: "ic_bybit.svg",
-    link: "https://www.bybit.com/en-US/trade/spot/GMX/USDT",
+    link: "#",
     networks: [ARBITRUM, AVALANCHE],
   },
   {
     name: "Kucoin",
     icon: "ic_kucoin.svg",
-    link: "https://www.kucoin.com/trade/GMX-USDT",
+    link: "#",
     networks: [ARBITRUM, AVALANCHE],
   },
   {
     name: "Huobi",
     icon: "ic_huobi.svg",
-    link: "https://www.huobi.com/en-us/exchange/gmx_usdt/",
+    link: "#",
     networks: [ARBITRUM, AVALANCHE],
   },
 ];
@@ -123,8 +123,8 @@ export const DECENTRALISED_AGGRIGATORS: Exchange[] = [
     name: "1inch",
     icon: "ic_1inch.svg",
     links: {
-      [ARBITRUM]: "https://app.1inch.io/#/42161/unified/swap/ETH/GMX",
-      [AVALANCHE]: "https://app.1inch.io/#/43114/unified/swap/AVAX/GMX",
+      [ARBITRUM]: "#",
+      [AVALANCHE]: "#",
     },
     networks: [ARBITRUM, AVALANCHE],
   },
@@ -156,8 +156,8 @@ export const DECENTRALISED_AGGRIGATORS: Exchange[] = [
     name: "OpenOcean",
     icon: "ic_openocean.svg",
     links: {
-      [ARBITRUM]: "https://app.openocean.finance/CLASSIC#/ARBITRUM/ETH/GMX",
-      [AVALANCHE]: "https://app.openocean.finance/CLASSIC#/AVAX/AVAX/GMX",
+      [ARBITRUM]: "#",
+      [AVALANCHE]: "#",
     },
     networks: [ARBITRUM, AVALANCHE],
   },

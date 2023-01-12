@@ -62,26 +62,26 @@ export default function TokenCard({ showRedirectModal, redirectPopupTimestamp })
     <div className="Home-token-card-options">
       <div className="Home-token-card-option">
         <div className="Home-token-card-option-icon">
-          <img src={gmxBigIcon} alt="gmxBigIcon" /> NOVA
+          <img src={gmxBigIcon} alt="novaBigIcon" /> NOVA
         </div>
         <div className="Home-token-card-option-info">
           <div className="Home-token-card-option-title">
             <Trans>NOVA is the utility and governance token. Accrues 30% of the platform's generated fees.</Trans>
           </div>
           <div className="Home-token-card-option-apr">
-            <Trans>Arbitrum APR:</Trans> <APRLabel chainId={ARBITRUM} label="gmxAprTotal" />,{" "}
-            <Trans>Avalanche APR:</Trans> <APRLabel chainId={AVALANCHE} label="gmxAprTotal" key="AVALANCHE" />
+            <Trans>Arbitrum APR:</Trans> <APRLabel chainId={ARBITRUM} label="novaAprTotal" />,{" "}
+            <Trans>Avalanche APR:</Trans> <APRLabel chainId={AVALANCHE} label="novaAprTotal" key="AVALANCHE" />
           </div>
           <div className="Home-token-card-option-action">
             <div className="buy">
-              <BuyLink to="/buy_gmx" className="default-btn" network={ARBITRUM}>
+              <BuyLink to="/buy_nova" className="default-btn" network={ARBITRUM}>
                 <Trans>Buy on Arbitrum</Trans>
               </BuyLink>
-              <BuyLink to="/buy_gmx" className="default-btn" network={AVALANCHE}>
+              <BuyLink to="/buy_nova" className="default-btn" network={AVALANCHE}>
                 <Trans>Buy on Avalanche</Trans>
               </BuyLink>
             </div>
-            <ExternalLink href="https://gmxio.gitbook.io/gmx/tokenomics" className="default-btn read-more">
+            <ExternalLink href="#" className="default-btn read-more">
               <Trans>Read more</Trans>
             </ExternalLink>
           </div>
@@ -109,7 +109,7 @@ export default function TokenCard({ showRedirectModal, redirectPopupTimestamp })
               </BuyLink>
             </div>
             <a
-              href="https://gmxio.gitbook.io/gmx/glp"
+              href="#"
               target="_blank"
               rel="noreferrer"
               className="default-btn read-more"

@@ -313,7 +313,7 @@ function UnstakeModal(props) {
           <div className="Modal-note">
             <Trans>
               Unstaking will burn&nbsp;
-              <ExternalLink href="https://gmxio.gitbook.io/gmx/rewards">
+              <ExternalLink href="#S">
                 {formatAmount(burnAmount, 18, 4, true)} Multiplier Points
               </ExternalLink>
               .&nbsp;

@@ -89,8 +89,8 @@ export default function ReferralTerms() {
               <p className="body-text">
                 The Rebates and Discounts percentages for the default tier Tier 1, and instructions to upgrade to Tier 2
                 and Tier 3, are contained in{" "}
-                <ExternalLink href="https://gmxio.gitbook.io/gmx/referrals">
-                  https://gmxio.gitbook.io/gmx/referrals.
+                <ExternalLink href="#">
+                  #.
                 </ExternalLink>
               </p>
             </div>
@@ -133,7 +133,7 @@ export default function ReferralTerms() {
             <div className="section">
               <h3 className="body-title">6. MODIFICATION, SUSPENSION, AND TERMINATION</h3>
               <p className="body-text">
-                The Referral Program runs independently from NOVA, which the token holders of GMX determine. Due to
+                The Referral Program runs independently from NOVA, which the token holders of NOVA determine. Due to
                 this, from time to time and with or without prior notice to you, the Referral Program could be subject
                 to modifications, suspensions, or disabilities, in whole or in part, for any reason whatsoever.
               </p>

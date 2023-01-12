@@ -18,7 +18,7 @@ function Jobs() {
               <Trans>Jobs</Trans>
             </div>
             <div className="Page-description">
-              <Trans>Job openings at GMX.</Trans>
+              <Trans>Job openings at NOVA.</Trans>
             </div>
           </div>
         </div>
@@ -33,12 +33,12 @@ function Jobs() {
 
 function NoJob() {
   return (
-    <Card title={t`No open positions at GMX currently`}>
+    <Card title={t`No open positions at NOVA currently`}>
       <div className="body-para">
         <p className="subheading">
           <Trans>
-            GMX is not actively looking for new hires at the moment. However, if you think you can contribute to the
-            project, please email <ExternalLink href="mailto:jobs@gmx.io">jobs@gmx.io</ExternalLink>.
+            NOVA is not actively looking for new hires at the moment. However, if you think you can contribute to the
+            project, please email <ExternalLink href="mailto:jobs@gmx.io">jobs@nova.io</ExternalLink>.
           </Trans>
         </p>
       </div>
