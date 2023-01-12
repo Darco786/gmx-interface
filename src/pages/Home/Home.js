@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "components/Footer/Footer";
 import "./Home.css";
-
+import './stars.css'
 import simpleSwapIcon from "img/ic_simpleswaps.svg";
 import costIcon from "img/ic_cost.svg";
 import liquidityIcon from "img/ic_liquidity.svg";
@@ -138,15 +138,19 @@ export default function Home({ showRedirectModal, redirectPopupTimestamp }) {
 
   return (
     <div className="Home">
+
       <div className="Home-top">
-        {/* <div className="Home-top-image"></div> */}
+      {/* <div id="stars"></div> */}
+{/* <div id="stars2"></div>
+<div id="stars3"></div> */}
+        <div className="Home-top-image"></div>
         <div className="Home-title-section-container default-container">
           <div className="Home-title-section">
             <div className="Home-title">
               <Trans>
                 Decentralized
                 <br />
-                Perpetual Exchange
+                Perpetual <span className="sky">Exchange</span> 
               </Trans>
             </div>
             <div className="Home-description">
@@ -154,7 +158,8 @@ export default function Home({ showRedirectModal, redirectPopupTimestamp }) {
                 Trade BTC, ETH, AVAX and other top cryptocurrencies with up to 50x leverage directly from your wallet
               </Trans>
             </div>
-            <LaunchExchangeButton />
+            <div className="home-btn"><LaunchExchangeButton /></div>
+            
           </div>
         </div>
         <div className="Home-latest-info-container default-container">
@@ -273,7 +278,7 @@ export default function Home({ showRedirectModal, redirectPopupTimestamp }) {
         <div className="Home-token-card-container default-container">
           <div className="Home-token-card-info">
             <div className="Home-token-card-info__title">
-              <Trans>Two tokens create our ecosystem</Trans>
+              <Trans>Tokens  <span className="sky">Ecosystem</span></Trans>
             </div>
           </div>
           <TokenCard showRedirectModal={showRedirectModal} redirectPopupTimestamp={redirectPopupTimestamp} />

@@ -5,7 +5,7 @@
 
 .Home-top {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: flex-end;
   padding-top: 6.2rem;
@@ -49,17 +49,17 @@
 }
 
 .Home-title-section {
-  /* max-width: 53rem; */
+  /* max-width: 68rem; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .Home-description {
   font-size: 2rem;
   line-height: 2.5rem;
-  max-width: 44.4rem;
+  max-width: 51.4rem;
   color: #a0a3c4;
   margin-bottom: 2.8rem;
 }
@@ -79,7 +79,20 @@
 }
 
 .Home-benefit {
-  padding: 2.4rem 0;
+ 
+    background: #1f1f1f 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0.7rem 0.8rem #182731;
+    border: 1px solid #2898e2;
+    border-radius: 12px;
+    max-width: 38rem;
+    width: 100%;
+    /* display: flex; */
+    align-items: center;
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+    backdrop-filter: blur(5px);
+    margin: 1.6rem 0;
+
 }
 
 .Home-benefit-title {
@@ -92,16 +105,18 @@
 .Home-benefit-description {
   font-size: 1.8rem;
   line-height: 2.3rem;
-  max-width: 29rem;
+  padding-left: 50px;
+  padding-right: 23px;
   color: #a0a3c4;
   letter-spacing: 0;
 }
 
 .Home-benefit-icon {
-  display: flex;
+  
   align-items: center;
   padding: 0 0 1.5rem;
   font-size: 1.85rem;
+  text-align: center;
 }
 
 .Home-cta-section {
@@ -246,7 +261,7 @@
   padding: 2.325rem;
   border-radius: 1.3rem;
   max-width: 59.2rem;
-  background: rgb(0 153 255 / 6%);
+  background: rgb(31 31 31);
   box-shadow: 0px 0.5rem 1rem #3184bb3b;
   border: 1px solid #28a0f0;
   border-radius: 12px;
@@ -305,16 +320,15 @@
   flex-wrap: wrap;
   padding-top: 6.2rem;
   padding-bottom: 1.5rem;
-  width: 100%;
+  width: auto;
 }
 
 .Home-latest-info-block {
-  background: #0099ff26 0% 0% no-repeat padding-box;
-  
+  background: #1f1f1f 0% 0% no-repeat padding-box;
   box-shadow: 0px 0.7rem 0.8rem #182731;
-  
   border: 1px solid #2898e2;
-  border-radius: 4px;
+  border-radius: 12px;
+  
   max-width: 38rem;
   width: 100%;
   display: flex;
@@ -322,8 +336,7 @@
   padding-top: 2.8rem;
   padding-bottom: 2.8rem;
   margin: 1.6rem 0;
-  -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
+
 }
 
 .Home-latest-info__icon {
@@ -493,6 +506,10 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 1.5rem;
+  }
+  .Home-top {
+    display: flex;
+    flex-direction: column;
   }
 }
 
