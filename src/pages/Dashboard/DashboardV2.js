@@ -370,7 +370,7 @@ export default function DashboardV2() {
                     <br />
                     Get lower fees to{" "}
                     <Link to="/buy_glp" target="_blank" rel="noopener noreferrer">
-                      buy GLP
+                      buy DUEX
                     </Link>{" "}
                     with {tokenInfo.symbol}, and to{" "}
                     <Link to="/trade" target="_blank" rel="noopener noreferrer">
@@ -396,7 +396,7 @@ export default function DashboardV2() {
               )}
               <br />
               <div>
-                <ExternalLink href="https://gmxio.gitbook.io/gmx/glp">
+                <ExternalLink href="/">
                   <Trans>More Info</Trans>
                 </ExternalLink>
               </div>
@@ -524,9 +524,9 @@ export default function DashboardV2() {
               <Trans>
                 {chainName} Total Stats start from {totalStatsStartDate}.<br /> For detailed stats:
               </Trans>{" "}
-              {chainId === ARBITRUM && <ExternalLink href="https://stats.gmx.io">https://stats.gmx.io</ExternalLink>}
+              {chainId === ARBITRUM && <ExternalLink href="https://stats.gmx.io">https://stats.nova.io</ExternalLink>}
               {chainId === AVALANCHE && (
-                <ExternalLink href="https://stats.gmx.io/avalanche">https://stats.gmx.io/avalanche</ExternalLink>
+                <ExternalLink href="https://stats.gmx.io/avalanche">https://stats.nova.io/avalanche</ExternalLink>
               )}
               .
             </div>
@@ -864,7 +864,7 @@ export default function DashboardV2() {
                   <div className="App-card-title">
                     <div className="App-card-title-mark">
                       <div className="App-card-title-mark-icon">
-                        <img src={glp40Icon} alt="glp40Icon" />
+                        <img src={glp40Icon} alt="duex40Icon" />
                         {chainId === ARBITRUM ? (
                           <img src={arbitrum16Icon} alt={t`Arbitrum Icon`} className="selected-network-symbol" />
                         ) : (
