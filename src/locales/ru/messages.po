@@ -992,8 +992,8 @@ msgid "Decentralized Trading Protocol"
 msgstr "Децентрализованный Торговый Протокол"
 
 #: src/pages/Home/Home.js
-msgid "Decentralized<0/>Perpetual Exchange"
-msgstr "Децентрализованная<0/>Бессрочная Биржа"
+msgid "Decentralized<0/>Perpetual <1>Exchange</1>"
+msgstr ""
 
 #: src/components/Exchange/ConfirmationBox.js
 #: src/components/Exchange/ConfirmationBox.js
@@ -3247,6 +3247,10 @@ msgstr "Чтобы уменьшить комиссию, выберите дру�
 msgid "Tokens"
 msgstr "Токены"
 
+#: src/pages/Home/Home.js
+msgid "Tokens  <0>Ecosystem</0>"
+msgstr ""
+
 #: src/pages/Stake/StakeV2.js
 msgid "Total"
 msgstr "Итого"
@@ -3460,10 +3464,6 @@ msgstr "Попробуйте увеличить \" Допустимое Скол
 #: src/components/Exchange/PositionShare.js
 msgid "Tweet"
 msgstr "Твитнуть"
-
-#: src/pages/Home/Home.js
-msgid "Two tokens create our ecosystem"
-msgstr "Два токена создают нашу экосистему"
 
 #: src/App/App.js
 msgid "Txn failed. <0>View</0>"

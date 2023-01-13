@@ -992,8 +992,8 @@ msgid "Decentralized Trading Protocol"
 msgstr "탈중앙화 트레이딩 프로토콜"
 
 #: src/pages/Home/Home.js
-msgid "Decentralized<0/>Perpetual Exchange"
-msgstr "탈중앙화<0/>퍼페추얼 거래소"
+msgid "Decentralized<0/>Perpetual <1>Exchange</1>"
+msgstr ""
 
 #: src/components/Exchange/ConfirmationBox.js
 #: src/components/Exchange/ConfirmationBox.js
@@ -3247,6 +3247,10 @@ msgstr "수수료를 줄이기 위해서는 다른 자산으로 수령해주세�
 msgid "Tokens"
 msgstr "토큰"
 
+#: src/pages/Home/Home.js
+msgid "Tokens  <0>Ecosystem</0>"
+msgstr ""
+
 #: src/pages/Stake/StakeV2.js
 msgid "Total"
 msgstr "총계"
@@ -3460,10 +3464,6 @@ msgstr "우측 상단의 세팅을 이용해 \"허용 가능한 슬리피지\"�
 #: src/components/Exchange/PositionShare.js
 msgid "Tweet"
 msgstr "Tweet"
-
-#: src/pages/Home/Home.js
-msgid "Two tokens create our ecosystem"
-msgstr "두개의 토큰이 생태계를 형성하고 있습니다"
 
 #: src/App/App.js
 msgid "Txn failed. <0>View</0>"

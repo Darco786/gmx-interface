@@ -992,8 +992,8 @@ msgid "Decentralized Trading Protocol"
 msgstr "Protocolo de Trading Descentralizado"
 
 #: src/pages/Home/Home.js
-msgid "Decentralized<0/>Perpetual Exchange"
-msgstr "Exchange<0/>Perpetuo Decentralizado"
+msgid "Decentralized<0/>Perpetual <1>Exchange</1>"
+msgstr ""
 
 #: src/components/Exchange/ConfirmationBox.js
 #: src/components/Exchange/ConfirmationBox.js
@@ -3247,6 +3247,10 @@ msgstr "Para reducir las comisiones, seleccione un activo diferente para recibir
 msgid "Tokens"
 msgstr "Tokens"
 
+#: src/pages/Home/Home.js
+msgid "Tokens  <0>Ecosystem</0>"
+msgstr ""
+
 #: src/pages/Stake/StakeV2.js
 msgid "Total"
 msgstr "Total"
@@ -3460,10 +3464,6 @@ msgstr "Prueba a incrementar el \"Deslizamiento Permitido\", debajo del menú de
 #: src/components/Exchange/PositionShare.js
 msgid "Tweet"
 msgstr "Tweet"
-
-#: src/pages/Home/Home.js
-msgid "Two tokens create our ecosystem"
-msgstr "Dos tokens crean nuestro ecosistema"
 
 #: src/App/App.js
 msgid "Txn failed. <0>View</0>"

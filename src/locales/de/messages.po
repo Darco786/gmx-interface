@@ -992,8 +992,8 @@ msgid "Decentralized Trading Protocol"
 msgstr "Dezentrales Tradingprotokoll"
 
 #: src/pages/Home/Home.js
-msgid "Decentralized<0/>Perpetual Exchange"
-msgstr "Dezentralisierte<0/>Perpetual Börse"
+msgid "Decentralized<0/>Perpetual <1>Exchange</1>"
+msgstr ""
 
 #: src/components/Exchange/ConfirmationBox.js
 #: src/components/Exchange/ConfirmationBox.js
@@ -3247,6 +3247,10 @@ msgstr "Um die Gebühren zu senken, wähle einen anderen Vermögenswert aus, den
 msgid "Tokens"
 msgstr "Tokens"
 
+#: src/pages/Home/Home.js
+msgid "Tokens  <0>Ecosystem</0>"
+msgstr ""
+
 #: src/pages/Stake/StakeV2.js
 msgid "Total"
 msgstr "Insgesamt"
@@ -3460,10 +3464,6 @@ msgstr "Versuche die Einstellung \"Erlaubter Slippage\" im Menü \"Einstellungen
 #: src/components/Exchange/PositionShare.js
 msgid "Tweet"
 msgstr "Twittere"
-
-#: src/pages/Home/Home.js
-msgid "Two tokens create our ecosystem"
-msgstr "Zwei Token erschaffen unser Ökosystem"
 
 #: src/App/App.js
 msgid "Txn failed. <0>View</0>"

@@ -992,7 +992,7 @@ msgid "Decentralized Trading Protocol"
 msgstr ""
 
 #: src/pages/Home/Home.js
-msgid "Decentralized<0/>Perpetual Exchange"
+msgid "Decentralized<0/>Perpetual <1>Exchange</1>"
 msgstr ""
 
 #: src/components/Exchange/ConfirmationBox.js
@@ -3244,6 +3244,10 @@ msgstr ""
 msgid "Tokens"
 msgstr ""
 
+#: src/pages/Home/Home.js
+msgid "Tokens  <0>Ecosystem</0>"
+msgstr ""
+
 #: src/pages/Stake/StakeV2.js
 msgid "Total"
 msgstr ""
@@ -3456,10 +3460,6 @@ msgstr ""
 
 #: src/components/Exchange/PositionShare.js
 msgid "Tweet"
-msgstr ""
-
-#: src/pages/Home/Home.js
-msgid "Two tokens create our ecosystem"
 msgstr ""
 
 #: src/App/App.js

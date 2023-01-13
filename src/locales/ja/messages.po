@@ -992,8 +992,8 @@ msgid "Decentralized Trading Protocol"
 msgstr "分散型取引プロトコル"
 
 #: src/pages/Home/Home.js
-msgid "Decentralized<0/>Perpetual Exchange"
-msgstr "分散型<0/>パーペチュアル取引所"
+msgid "Decentralized<0/>Perpetual <1>Exchange</1>"
+msgstr ""
 
 #: src/components/Exchange/ConfirmationBox.js
 #: src/components/Exchange/ConfirmationBox.js
@@ -3247,6 +3247,10 @@ msgstr "手数料を削減するには別のアセットで受け取ってくだ
 msgid "Tokens"
 msgstr "トークン"
 
+#: src/pages/Home/Home.js
+msgid "Tokens  <0>Ecosystem</0>"
+msgstr ""
+
 #: src/pages/Stake/StakeV2.js
 msgid "Total"
 msgstr "総計"
@@ -3460,10 +3464,6 @@ msgstr "右上の設定メニューにある\"最大スリッページ\"を増�
 #: src/components/Exchange/PositionShare.js
 msgid "Tweet"
 msgstr "ツイート"
-
-#: src/pages/Home/Home.js
-msgid "Two tokens create our ecosystem"
-msgstr "2種類のトークンが私たちのエコシステムを構成しています"
 
 #: src/App/App.js
 msgid "Txn failed. <0>View</0>"

@@ -992,8 +992,8 @@ msgid "Decentralized Trading Protocol"
 msgstr "Decentralized Trading Protocol"
 
 #: src/pages/Home/Home.js
-msgid "Decentralized<0/>Perpetual Exchange"
-msgstr "Decentralized<0/>Perpetual Exchange"
+msgid "Decentralized<0/>Perpetual <1>Exchange</1>"
+msgstr "Decentralized<0/>Perpetual <1>Exchange</1>"
 
 #: src/components/Exchange/ConfirmationBox.js
 #: src/components/Exchange/ConfirmationBox.js
@@ -3247,6 +3247,10 @@ msgstr "To reduce fees, select a different asset to receive."
 msgid "Tokens"
 msgstr "Tokens"
 
+#: src/pages/Home/Home.js
+msgid "Tokens  <0>Ecosystem</0>"
+msgstr "Tokens  <0>Ecosystem</0>"
+
 #: src/pages/Stake/StakeV2.js
 msgid "Total"
 msgstr "Total"
@@ -3460,10 +3464,6 @@ msgstr "Try increasing the \"Allowed Slippage\", under the Settings menu on the 
 #: src/components/Exchange/PositionShare.js
 msgid "Tweet"
 msgstr "Tweet"
-
-#: src/pages/Home/Home.js
-msgid "Two tokens create our ecosystem"
-msgstr "Two tokens create our ecosystem"
 
 #: src/App/App.js
 msgid "Txn failed. <0>View</0>"

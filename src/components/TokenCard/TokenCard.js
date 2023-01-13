@@ -109,7 +109,7 @@ export default function TokenCard({ showRedirectModal, redirectPopupTimestamp })
               </BuyLink>
             </div>
             <a
-              href="#"
+              href="/"
               target="_blank"
               rel="noreferrer"
               className="default-btn read-more"

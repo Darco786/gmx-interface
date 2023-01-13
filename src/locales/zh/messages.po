@@ -992,8 +992,8 @@ msgid "Decentralized Trading Protocol"
 msgstr "去中心化交易协议"
 
 #: src/pages/Home/Home.js
-msgid "Decentralized<0/>Perpetual Exchange"
-msgstr "去中心化<0/>永续交易所"
+msgid "Decentralized<0/>Perpetual <1>Exchange</1>"
+msgstr ""
 
 #: src/components/Exchange/ConfirmationBox.js
 #: src/components/Exchange/ConfirmationBox.js
@@ -3247,6 +3247,10 @@ msgstr "为了减少费用，请选择不同的资产来接收"
 msgid "Tokens"
 msgstr "代币"
 
+#: src/pages/Home/Home.js
+msgid "Tokens  <0>Ecosystem</0>"
+msgstr ""
+
 #: src/pages/Stake/StakeV2.js
 msgid "Total"
 msgstr "总计"
@@ -3460,10 +3464,6 @@ msgstr "尝试增加 \"Allowed Slippage\", 在右上角设置下方"
 #: src/components/Exchange/PositionShare.js
 msgid "Tweet"
 msgstr "推特"
-
-#: src/pages/Home/Home.js
-msgid "Two tokens create our ecosystem"
-msgstr "两种代币创造了我们的生态系统"
 
 #: src/App/App.js
 msgid "Txn failed. <0>View</0>"
