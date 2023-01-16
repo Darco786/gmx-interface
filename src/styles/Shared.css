@@ -223,7 +223,7 @@ a.plain {
 }
 
 .default-btn {
-  background: transparent;
+  background: linear-gradient(123deg,#fff 2%,#1364c2 11%,#012a64 47%,#15647b 88%);
   border-radius: 20px;
   font-size: var(--font-sm);
   line-height: 2rem;
@@ -241,12 +241,12 @@ a.plain {
   align-items: center;
   text-align: center;
   cursor: pointer;
-  border: 2px solid #28a0f0;
+
   appearance: none;
 }
 
 .default-btn:hover {
-  background:#28a0f0 ;
+  background:#28a0f075 ;
 }
 
 /* .default-btn:focus {
