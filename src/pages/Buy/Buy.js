@@ -14,7 +14,7 @@ export default function BuyGMXGLP() {
         <div className="BuyGMXGLP-container default-container">
           <div className="section-title-block">
             <div className="section-title-icon">
-              <img src={buyGMXIcon} alt="buyGMXIcon" />
+              <img src={buyGMXIcon} alt="buyNOVAIcon" />
             </div>
             <div className="section-title-content">
               <div className="Page-title">

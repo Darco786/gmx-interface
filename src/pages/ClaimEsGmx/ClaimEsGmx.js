@@ -138,7 +138,7 @@ export default function ClaimEsGmx({ setPendingTxns }) {
 
   const { data: esGmxIouBalance } = useSWR(
     isArbitrum && [
-      `ClaimEsGmx:esGmxIouBalance:${active}`,
+      `ClaimEsNOVA:esNOVAIouBalance:${active}`,
       chainId,
       esGmxIouAddress,
       "balanceOf",
@@ -261,7 +261,7 @@ export default function ClaimEsGmx({ setPendingTxns }) {
     }
 
     if (esGmxIouBalance && esGmxIouBalance.eq(0)) {
-      return t`No esGMX to claim`;
+      return t`No esNOVA to claim`;
     }
 
     if (!amount || amount.eq(0)) {
@@ -390,7 +390,7 @@ export default function ClaimEsGmx({ setPendingTxns }) {
                 setIsChecked={() => setSelectedOption(VEST_WITH_GLP_ARB)}
               >
                 <div className="ClaimEsGmx-option-label">
-                  <Trans>Vest with DUEX on Arbitrum</Trans>
+                  <Trans>Vest with DUEX </Trans>
                 </div>
                 <img src={arbitrumIcon} alt="Arbitrum" />
               </Checkbox>

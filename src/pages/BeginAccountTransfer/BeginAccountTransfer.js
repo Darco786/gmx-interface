@@ -125,7 +125,7 @@ export default function BeginAccountTransfer(props) {
       return t`Wallet is not connected`;
     }
     if (hasVestedGmx) {
-      return t`Vested GMX not withdrawn`;
+      return t`Vested NOVA not withdrawn`;
     }
     if (hasVestedGlp) {
       return t`Vested GLP not withdrawn`;
@@ -171,7 +171,7 @@ export default function BeginAccountTransfer(props) {
       return error;
     }
     if (needApproval) {
-      return t`Approve GMX`;
+      return t`Approve NOVA`;
     }
     if (isApproving) {
       return t`Approving...`;
@@ -236,7 +236,7 @@ export default function BeginAccountTransfer(props) {
           <Trans>
             Please only use this for full account transfers.
             <br />
-            This will transfer all your NOVA, esNOVA, GLP and Multiplier Points to your new account.
+            This will transfer all your NOVA, esNOVA and Multiplier Points to your new account.
             <br />
             Transfers are only supported if the receiving account has not staked NOVA or DUEX tokens before.
             <br />

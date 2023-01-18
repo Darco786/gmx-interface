@@ -524,9 +524,9 @@ export default function DashboardV2() {
               <Trans>
                 {chainName} Total Stats start from {totalStatsStartDate}.<br /> For detailed stats:
               </Trans>{" "}
-              {chainId === ARBITRUM && <ExternalLink href="https://stats.gmx.io">https://stats.nova.io</ExternalLink>}
+              {chainId === ARBITRUM && <ExternalLink href="https://stats.io">https://stats.nova.io</ExternalLink>}
               {chainId === AVALANCHE && (
-                <ExternalLink href="https://stats.gmx.io/avalanche">https://stats.nova.io/avalanche</ExternalLink>
+                <ExternalLink href="https://stats.io/avalanche">https://stats.nova.io/avalanche</ExternalLink>
               )}
               .
             </div>
