@@ -7,7 +7,12 @@ body,
   padding: 0;
   color: white;
   font-size: 10px;
-  background-color: #101124;
+  background-color: #171a23;
+  background-image: url(../img/mid-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  background-position-y: 18em;
 }
 
 body {
