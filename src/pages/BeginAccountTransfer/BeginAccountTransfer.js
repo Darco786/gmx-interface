@@ -238,7 +238,7 @@ export default function BeginAccountTransfer(props) {
             <br />
             This will transfer all your NOVA, esNOVA and Multiplier Points to your new account.
             <br />
-            Transfers are only supported if the receiving account has not staked NOVA or DUEX tokens before.
+            Transfers are only supported if the receiving account has not staked NOVA or NLP tokens before.
             <br />
             Transfers are one-way, you will not be able to transfer staked tokens back to the sending account.
           </Trans>
@@ -271,13 +271,13 @@ export default function BeginAccountTransfer(props) {
               <Trans>Sender has withdrawn all tokens from NOVA Vesting Vault</Trans>
             </ValidationRow>
             <ValidationRow isValid={!hasVestedGlp}>
-              <Trans>Sender has withdrawn all tokens from DUEX Vesting Vault</Trans>
+              <Trans>Sender has withdrawn all tokens from NLP Vesting Vault</Trans>
             </ValidationRow>
             <ValidationRow isValid={!hasStakedGmx}>
               <Trans>Receiver has not staked NOVA tokens before</Trans>
             </ValidationRow>
             <ValidationRow isValid={!hasStakedGlp}>
-              <Trans>Receiver has not staked DUEX tokens before</Trans>
+              <Trans>Receiver has not staked NLP tokens before</Trans>
             </ValidationRow>
           </div>
           <div className="input-row">

@@ -417,7 +417,7 @@ export default function Ecosystem() {
       title: "Beefy.com",
       link: "https://app.beefy.com/",
       linkLabel: "beefy.com",
-      about: t`DUEX and NOVA tocompounding vaults`,
+      about: t`NLP and NOVA tocompounding vaults`,
       announcementLabel: "beefy.com",
       announcementLink: " ",
       chainIds: [ARBITRUM, AVALANCHE],

@@ -370,7 +370,7 @@ export default function DashboardV2() {
                     <br />
                     Get lower fees to{" "}
                     <Link to="/buy_glp" target="_blank" rel="noopener noreferrer">
-                      buy DUEX
+                      buy NLP
                     </Link>{" "}
                     with {tokenInfo.symbol}, and to{" "}
                     <Link to="/trade" target="_blank" rel="noopener noreferrer">
@@ -549,14 +549,14 @@ export default function DashboardV2() {
                       handle={`$${formatAmount(tvl, USD_DECIMALS, 0, true)}`}
                       position="right-bottom"
                       renderContent={() => (
-                        <span>{t`Assets Under Management: NOVA staked (All chains) + DUEX pool (${chainName}).`}</span>
+                        <span>{t`Assets Under Management: NOVA staked (All chains) + NLP pool (${chainName}).`}</span>
                       )}
                     />
                   </div>
                 </div>
                 <div className="App-card-row">
                   <div className="label">
-                    <Trans>DUEX Pool</Trans>
+                    <Trans>NLP Pool</Trans>
                   </div>
                   <div>
                     <TooltipComponent
@@ -564,9 +564,9 @@ export default function DashboardV2() {
                       position="right-bottom"
                       renderContent={() => (
                         <Trans>
-                          <p>Total value of tokens in DUEX pool ({chainName}).</p>
+                          <p>Total value of tokens in NLP pool ({chainName}).</p>
                           <p>
-                            Other websites may show a higher value as they add positions' collaterals to the DUEX pool.
+                            Other websites may show a higher value as they add positions' collaterals to the NLP pool.
                           </p>
                         </Trans>
                       )}
@@ -729,7 +729,7 @@ export default function DashboardV2() {
               {chainId === ARBITRUM && <img src={arbitrum24Icon} alt="arbitrum24Icon" />}
             </div>
             <div className="Page-description">
-              <Trans>Platform and DUEX index tokens.</Trans>
+              <Trans>Platform and NLP index tokens.</Trans>
             </div>
           </div>
           <div className="DashboardV2-token-cards">
@@ -864,7 +864,7 @@ export default function DashboardV2() {
                   <div className="App-card-title">
                     <div className="App-card-title-mark">
                       <div className="App-card-title-mark-icon">
-                        <img src={glp40Icon} alt="duex40Icon" />
+                        <img src={glp40Icon} alt="NLP40Icon" />
                         {chainId === ARBITRUM ? (
                           <img src={arbitrum16Icon} alt={t`Arbitrum Icon`} className="selected-network-symbol" />
                         ) : (
@@ -872,11 +872,11 @@ export default function DashboardV2() {
                         )}
                       </div>
                       <div className="App-card-title-mark-info">
-                        <div className="App-card-title-mark-title">DUEX</div>
-                        <div className="App-card-title-mark-subtitle">DUEX</div>
+                        <div className="App-card-title-mark-title">NLP</div>
+                        <div className="App-card-title-mark-subtitle">NLP</div>
                       </div>
                       <div>
-                        <AssetDropdown assetSymbol="DUEX" />
+                        <AssetDropdown assetSymbol="NLP" />
                       </div>
                     </div>
                   </div>
@@ -892,7 +892,7 @@ export default function DashboardV2() {
                       <div className="label">
                         <Trans>Supply</Trans>
                       </div>
-                      <div>{formatAmount(glpSupply, GLP_DECIMALS, 0, true)} DUEX</div>
+                      <div>{formatAmount(glpSupply, GLP_DECIMALS, 0, true)} NLP</div>
                     </div>
                     <div className="App-card-row">
                       <div className="label">
@@ -949,7 +949,7 @@ export default function DashboardV2() {
                         ))}
                       </Pie>
                       <text x={"50%"} y={"50%"} fill="white" textAnchor="middle" dominantBaseline="middle">
-                      DUEX Pool
+                      NLP Pool
                       </text>
                       <Tooltip content={<CustomTooltip />} />
                     </PieChart>
@@ -959,7 +959,7 @@ export default function DashboardV2() {
             </div>
             <div className="token-table-wrapper App-card">
               <div className="App-card-title">
-                <Trans>DUEX Index Composition</Trans>{" "}
+                <Trans>NLP Index Composition</Trans>{" "}
                 {chainId === AVALANCHE && <img src={avalanche16Icon} alt={t`Avalanche Icon`} />}
                 {chainId === ARBITRUM && <img src={arbitrum16Icon} alt={t`Arbitrum Icon`} />}
               </div>

@@ -1341,7 +1341,7 @@ export default function StakeV2({ setPendingTxns, connectWallet }) {
     }
     let glpStr;
     if (processedData.glpBalance && processedData.glpBalance.gt(0)) {
-      glpStr = formatAmount(processedData.glpBalance, 18, 2, true) + " DUEX";
+      glpStr = formatAmount(processedData.glpBalance, 18, 2, true) + " NLP";
     }
     const amountStr = [gmxAmountStr, esGmxAmountStr, mpAmountStr, glpStr].filter((s) => s).join(", ");
     earnMsg = (
@@ -1459,7 +1459,7 @@ export default function StakeV2({ setPendingTxns, connectWallet }) {
           <div className="Page-description">
             <Trans>
               Stake <ExternalLink href="https://gmxio.gitbook.io/gmx/tokenomics">NOVA</ExternalLink> and{" "}
-              <ExternalLink href="https://gmxio.gitbook.io/gmx/glp">DUEX</ExternalLink> to earn rewards.
+              <ExternalLink href="https://gmxio.gitbook.io/gmx/glp">NLP</ExternalLink> to earn rewards.
             </Trans>
           </div>
           {earnMsg && <div className="Page-description">{earnMsg}</div>}
@@ -1764,21 +1764,21 @@ export default function StakeV2({ setPendingTxns, connectWallet }) {
             </div>
           </div>
           <div className="App-card">
-            <div className="App-card-title">DUEX ({chainName})</div>
+            <div className="App-card-title">NLP ({chainName})</div>
             <div className="App-card-divider"></div>
             <div className="App-card-content">
               <div className="App-card-row">
                 <div className="label">
                   <Trans>Price</Trans>
                 </div>
-                <div>${formatKeyAmount(processedData, "DUEXPrice", USD_DECIMALS, 3, true)}</div>
+                <div>${formatKeyAmount(processedData, "NLPPrice", USD_DECIMALS, 3, true)}</div>
               </div>
               <div className="App-card-row">
                 <div className="label">
                   <Trans>Wallet</Trans>
                 </div>
                 <div>
-                  {formatKeyAmount(processedData, "glpBalance", GLP_DECIMALS, 2, true)} DUEX ($
+                  {formatKeyAmount(processedData, "glpBalance", GLP_DECIMALS, 2, true)} NLP ($
                   {formatKeyAmount(processedData, "glpBalanceUsd", USD_DECIMALS, 2, true)})
                 </div>
               </div>
@@ -1787,7 +1787,7 @@ export default function StakeV2({ setPendingTxns, connectWallet }) {
                   <Trans>Staked</Trans>
                 </div>
                 <div>
-                  {formatKeyAmount(processedData, "glpBalance", GLP_DECIMALS, 2, true)} DUEX ($
+                  {formatKeyAmount(processedData, "glpBalance", GLP_DECIMALS, 2, true)} NLP ($
                   {formatKeyAmount(processedData, "glpBalanceUsd", USD_DECIMALS, 2, true)})
                 </div>
               </div>
@@ -1798,19 +1798,19 @@ export default function StakeV2({ setPendingTxns, connectWallet }) {
                 </div>
                 <div>
                   <Tooltip
-                    handle={`${formatKeyAmount(processedData, "DUEXAprTotal", 2, 2, true)}%`}
+                    handle={`${formatKeyAmount(processedData, "NLPAprTotal", 2, 2, true)}%`}
                     position="right-bottom"
                     renderContent={() => {
                       return (
                         <>
                           <StatsTooltipRow
                             label={`${nativeTokenSymbol} (${wrappedTokenSymbol}) APR`}
-                            value={`${formatKeyAmount(processedData, "DUEXAprForNativeToken", 2, 2, true)}%`}
+                            value={`${formatKeyAmount(processedData, "NLPAprForNativeToken", 2, 2, true)}%`}
                             showDollar={false}
                           />
                           <StatsTooltipRow
                             label="Escrowed Nova APR"
-                            value={`${formatKeyAmount(processedData, "DUEXAprForEsNOVA", 2, 2, true)}%`}
+                            value={`${formatKeyAmount(processedData, "NLPAprForEsNOVA", 2, 2, true)}%`}
                             showDollar={false}
                           />
                           <br />
@@ -1830,7 +1830,7 @@ export default function StakeV2({ setPendingTxns, connectWallet }) {
                 </div>
                 <div>
                   <Tooltip
-                    handle={`$${formatKeyAmount(processedData, "totalDUEXRewardsUsd", USD_DECIMALS, 2, true)}`}
+                    handle={`$${formatKeyAmount(processedData, "totalNLPRewardsUsd", USD_DECIMALS, 2, true)}`}
                     position="right-bottom"
                     renderContent={() => {
                       return (
@@ -1839,22 +1839,22 @@ export default function StakeV2({ setPendingTxns, connectWallet }) {
                             label={`${nativeTokenSymbol} (${wrappedTokenSymbol})`}
                             value={`${formatKeyAmount(
                               processedData,
-                              "feeDUEXTrackerRewards",
+                              "feeNLPTrackerRewards",
                               18,
                               4
-                            )} ($${formatKeyAmount(processedData, "feeDUEXTrackerRewardsUsd", USD_DECIMALS, 2, true)})`}
+                            )} ($${formatKeyAmount(processedData, "feeNLPTrackerRewardsUsd", USD_DECIMALS, 2, true)})`}
                             showDollar={false}
                           />
                           <StatsTooltipRow
                             label="Escrowed NOVA"
                             value={`${formatKeyAmount(
                               processedData,
-                              "stakedDUEXTrackerRewards",
+                              "stakedNLPTrackerRewards",
                               18,
                               4
                             )} ($${formatKeyAmount(
                               processedData,
-                              "stakedDUEXTrackerRewardsUsd",
+                              "stakedNLPTrackerRewardsUsd",
                               USD_DECIMALS,
                               2,
                               true
@@ -1873,7 +1873,7 @@ export default function StakeV2({ setPendingTxns, connectWallet }) {
                   <Trans>Total Staked</Trans>
                 </div>
                 <div>
-                  {formatKeyAmount(processedData, "glpSupply", 18, 2, true)} DUEX ($
+                  {formatKeyAmount(processedData, "glpSupply", 18, 2, true)} NLP ($
                   {formatKeyAmount(processedData, "glpSupplyUsd", USD_DECIMALS, 2, true)})
                 </div>
               </div>
@@ -1882,17 +1882,17 @@ export default function StakeV2({ setPendingTxns, connectWallet }) {
                   <Trans>Total Supply</Trans>
                 </div>
                 <div>
-                  {formatKeyAmount(processedData, "glpSupply", 18, 2, true)} DUEX ($
+                  {formatKeyAmount(processedData, "glpSupply", 18, 2, true)} NLP ($
                   {formatKeyAmount(processedData, "glpSupplyUsd", USD_DECIMALS, 2, true)})
                 </div>
               </div>
               <div className="App-card-divider"></div>
               <div className="App-card-options">
                 <Link className="App-button-option App-card-option" to="/buy_glp">
-                  <Trans>Buy DUEX</Trans>
+                  <Trans>Buy NLP</Trans>
                 </Link>
                 <Link className="App-button-option App-card-option" to="/buy_glp#redeem">
-                  <Trans>Sell DUEX</Trans>
+                  <Trans>Sell NLP</Trans>
                 </Link>
                 {hasInsurance && (
                   <a
@@ -2131,7 +2131,7 @@ export default function StakeV2({ setPendingTxns, connectWallet }) {
             </div>
             <div className="App-card StakeV2-gmx-card">
               <div className="App-card-title">
-                <Trans>DUEX Vault</Trans>
+                <Trans>NLP Vault</Trans>
               </div>
               <div className="App-card-divider"></div>
               <div className="App-card-content">
@@ -2139,7 +2139,7 @@ export default function StakeV2({ setPendingTxns, connectWallet }) {
                   <div className="label">
                     <Trans>Staked Tokens</Trans>
                   </div>
-                  <div>{formatAmount(processedData.glpBalance, 18, 2, true)} DUEX</div>
+                  <div>{formatAmount(processedData.glpBalance, 18, 2, true)} NLP</div>
                 </div>
                 <div className="App-card-row">
                   <div className="label">
@@ -2156,9 +2156,9 @@ export default function StakeV2({ setPendingTxns, connectWallet }) {
                   </div>
                   <div>
                     <Tooltip
-                      handle={`${formatKeyAmount(vestingData, "DUEXVesterClaimSum", 18, 4, true)} / ${formatKeyAmount(
+                      handle={`${formatKeyAmount(vestingData, "NLPVesterClaimSum", 18, 4, true)} / ${formatKeyAmount(
                         vestingData,
-                        "DUEXVesterVestedAmount",
+                        "NLPVesterVestedAmount",
                         18,
                         4,
                         true
@@ -2168,9 +2168,9 @@ export default function StakeV2({ setPendingTxns, connectWallet }) {
                         return (
                           <div>
                             <Trans>
-                              {formatKeyAmount(vestingData, "DUEXVesterClaimSum", 18, 4, true)} tokens have been
+                              {formatKeyAmount(vestingData, "NLPVesterClaimSum", 18, 4, true)} tokens have been
                               converted to NOVA from the{" "}
-                              {formatKeyAmount(vestingData, "DUEXVesterVestedAmount", 18, 4, true)} esNova deposited for
+                              {formatKeyAmount(vestingData, "NLPVesterVestedAmount", 18, 4, true)} esNova deposited for
                               vesting.
                             </Trans>
                           </div>
@@ -2185,11 +2185,11 @@ export default function StakeV2({ setPendingTxns, connectWallet }) {
                   </div>
                   <div>
                     <Tooltip
-                      handle={`${formatKeyAmount(vestingData, "DUEXVesterClaimable", 18, 4, true)} NOVA`}
+                      handle={`${formatKeyAmount(vestingData, "NLPVesterClaimable", 18, 4, true)} NOVA`}
                       position="right-bottom"
                       renderContent={() => (
                         <Trans>
-                          {formatKeyAmount(vestingData, "DUEXVesterClaimable", 18, 4, true)} NOVA tokens can be claimed,
+                          {formatKeyAmount(vestingData, "NLPVesterClaimable", 18, 4, true)} NOVA tokens can be claimed,
                           use the options under the Total Rewards section to claim them.
                         </Trans>
                       )}
